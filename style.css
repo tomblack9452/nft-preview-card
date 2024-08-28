@@ -1,0 +1,101 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #778ca8;
+}
+
+h1 {
+    color: #fff;
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.main-container {
+    width: fit-content;
+    height: fit-content;
+    background-color: hsl(216, 50%, 16%);
+    position: absolute; /*Can also be `fixed`*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 20px;
+    /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    border-radius: 0.6rem;
+}
+
+.main-container img {
+    width: 350px;
+    height: 350px;
+    border-radius: 0.4rem;
+}
+
+.text {
+    width: 350px;
+}
+
+.nft-details-left {
+    width: fit-content;
+    float: left;
+}
+
+.nft-details-right {
+    width: fit-content;
+    float: right;
+}
+
+.eth-price-img {
+    text-align: center;
+    width: 12px;
+    height: 20px;
+    float: left;
+}
+
+.eth-price-text {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    padding-left: 20px;
+    line-height: 1.2rem;
+}
+
+.eth-date-img {
+    text-align: center;
+    width: 12px;
+    height: 20px;
+    float: left;
+    
+}
+
+.eth-date-text {
+    color: #778ca8;
+    padding-left: 23px;
+    line-height: 1.3rem;
+    text-align: right;
+}
+
+.creator {
+    padding-top: 10px;
+}
+
+.creator-icon {
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+.creator-text {
+    padding-left: 50px;
+    line-height: 2rem;
+}
